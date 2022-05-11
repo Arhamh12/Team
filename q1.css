@@ -1,0 +1,24 @@
+body{
+    background-color: darkslategrey;
+    align-content: flex-end:flex-start;
+
+}
+h1{
+    color: blue;
+    block-size: auto;
+    text-align: center;
+    background-color: crimson;
+
+}
+.Questions{
+    background-color: rgb(0, 0, 0);
+    display:block;
+    color: blue;
+    text-align: center;
+    text-align: unset;
+    margin-left: auto;
+    margin-right: 190px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 10px;
+}
