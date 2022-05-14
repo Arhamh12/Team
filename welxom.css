@@ -5,11 +5,12 @@ body {
     background-attachment:fixed;
     background-size: cover;
 }
-h1 {color:rgb(255, 255, 255);
+h1 
+{
+color:rgb(255, 255, 255);
 text-align: center;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-size-adjust: auto;
-
 }
 p {
     text-align: center;
@@ -38,7 +39,6 @@ h2 {
     display: inline-block;
     vertical-align: middle;
   }
-
 .button {
     background-color: #0015ff;
     border:black 3px;
