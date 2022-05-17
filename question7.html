@@ -5,37 +5,40 @@
     </head>
     <body>
         <H1>
-            Question 1
+            Question 3
         </H1>
         <h2> What would be printed?</h2>
         <pre class="Questions">
             public class javaQuestions {
                 public static void main(String[] args) {
-                    String myWords = "I am the witch ";
-                    int myNumbers = 13;
-                    System.out.print(myWords + myNumbers);
+                    String myString = "Wow! you came so far? lets see how far you go";
+                    int i;
+                    for(i = 0; i < myString.length();++i){
+                        i = i * 2 ;
+                        System.out.print(i+ " ");
+                    }
                 }
             }
             
         </pre>
-        <a href="correctPage4.html">
+        <a href="incorrectPage2.html">
         <button class="button button2">
-            I am the witch 13
+            0 2 6 14 30 62
         </button>
         </a>
         <a href="incorrectPage2.html">
         <button class="button button2">
-            Compile Error
+            2 6 14 30
         </button>
         </a>
         <a href="incorrectPage2.html">
         <button class="button button2">
-            I am the witch13
+            2 6 14 30 62
         </button>
         </a>
-        <a href="incorrectPage2.html">
+        <a href="correctPage6.html">
         <button class="button button2">
-            I am the witch
+            0 2 6 14 30 62
         </button>
         </a>
     </body>
