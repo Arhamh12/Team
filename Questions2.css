@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(0, 0, 0);
+    align-content: flex-end flex-start;
+    cursor: url("cursor.png"), auto;
+
+}
+h1{
+    color: blue;
+    block-size: auto;
+    text-align: center;
+    background-color: crimson;
+
+}
+h2{
+    color: blue;
+    block-size: auto;
+    margin-top: 0px;
+    text-align: center;
+    background-color: crimson;
+}
+
+.Questions{
+    background-color: rgb(237, 9, 207);
+    display:block;
+    color:blue;
+    font-size:x-large;
+    margin-bottom: 300px;
+    padding:  0px 500px;
+}
+.button {
+    background-color: #0015ff;
+    border:black 3px;
+    color: rgb(255, 0, 0);
+    padding: 50px 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    nav-up: auto;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: url("cursor\ 1.png"), auto;
+    }
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
