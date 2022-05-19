@@ -2,13 +2,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="Questions.css">
+        <script src="JavaScript.js"></script>
     </head>
     <body>
+        <button type="button" onclick="makeSmaller()">Make text smaller</button>
+        <button type="button" onclick="makeBigger()">Make text bigger</button>
         <H1>
             Question 3
         </H1>
         <h2> What is the output?</h2>
-        <pre class="Questions">
+        <pre id="demo" class="Questions">
             public class Question3Java {
                 public static void main(String[] args) {
                     int[] arrayNumbers = {4,34,23,12,6,43,78,54,76,43};
