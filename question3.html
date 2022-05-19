@@ -7,23 +7,46 @@
         <H1>
             Question 3
         </H1>
-        <h2> What would be printed?</h2>
+        <h2> What is the output?</h2>
         <pre class="Questions">
+            public class Question3Java {
+                public static void main(String[] args) {
+                    int[] arrayNumbers = {4,34,23,12,6,43,78,54,76,43};
             
+            
+                    int nextValue;
+                    int maximumValue = arrayNumbers[0];
+                    for (int i = 0; i < (arrayNumbers.length - 1); ++i) {
+                        nextValue = arrayNumbers[i + 1];
+            
+                        if (nextValue > maximumValue) {
+                            maximumValue = nextValue;
+                        }
+                    }
+            
+                    System.out.print(maximumValue);
+                }
+            }
         </pre>
+        <a href="incorrectPage.html">
         <button class="button button2">
-            Hello World
+            4
         </button>
+        </a>
+        <a href="incorrectPage.html">
         <button class="button button2">
-            Hello World
+            34
         </button>
+        </a>
         <a href="correctPage3.html">
         <button class="button button2">
-            
+            78
         </button>
-        </a> 
+        </a>
+        <a href="incorrectPage.html">
         <button class="button button2">
-            Hello World
+            54
         </button>
+        </a>
     </body>
 </html>
