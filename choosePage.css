@@ -30,11 +30,11 @@
 }
 
 .img-witch {
-    width: 315px;
+    width: 100%;
     
 }
 .img-clown {
-    width: 265px;
+    width: 75%;
 }
 #clown{
     float: left;
