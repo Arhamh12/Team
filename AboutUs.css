@@ -13,3 +13,20 @@ p {
     font-family: Arial;
     font-size: 20px;
 }
+.button {
+    background-color: #ff5500;
+    border:black 3px;
+    color: rgb(0, 17, 255);
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    nav-up: auto;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .button2:hover {
+        box-shadow: 0 12px 16px 0 rgba(181, 181, 181, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    } 
