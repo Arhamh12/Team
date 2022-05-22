@@ -8,3 +8,4 @@ public class question7 {
         }
     }
 }
+//0 2 6 14 30 62 

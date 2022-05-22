@@ -10,4 +10,5 @@ public class question2 {
           System.out.println(x);
     }
 }
+//20
     
